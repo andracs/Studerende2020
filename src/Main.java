@@ -13,21 +13,22 @@ public class Main {
         st1.navn ="Lasse";
         st1.alder = 22;
         st1.by = "Skuderløse";
-        st1.studieretning = "Datamatiker";
 
         Studerende st2 = new Studerende();
         st2.navn ="Asta";
         st2.alder = 22;
         st2.by = "Haslev";
-        st2.studieretning = "Datamatiker";
 
         Studerende st3 = new Studerende();
         st3.navn ="Delal";
         st3.alder = 20;
         st3.by = "Albertslund";
-        st3.studieretning = "Datamatiker";
 
-        System.out.println("Studerende oprettet!");
+        System.out.println("Alle studerende oprettet!");
+
+        // switch (studerende) {
+        //    "Lasse" sout studerende.alder
+        // }
 
     }
 

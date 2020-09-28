@@ -7,9 +7,17 @@ public class Studerende {
     int alder;
     String by;
     String studieretning;
+    String campus;
 
     Studerende() {
+        System.out.println("Et nyt objekt er instansieret af typen Studerende");
         studieretning = "Datamatiker";
+        campus = "Næstved";
     }
-    
+
+    class Pet {
+
+        String navn;
+
+    }
 }
