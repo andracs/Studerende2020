@@ -15,6 +15,17 @@ public class Studerende {
         campus = "Næstved";
     }
 
+    Studerende(String x, int y, String z) {
+        this.navn = x;
+        this.alder = y;
+        this.by = z;
+    }
+
+    public Studerende(String navn, int alder) {
+        this.navn = navn;
+        this.alder = alder;
+    }
+
     class Pet {
 
         String navn;
